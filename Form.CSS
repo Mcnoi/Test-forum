@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(211, 211, 255);
+  text-align: center;
+  font-family: 'Lobster Two', cursive;
+}
+form{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+input{
+  margin-bottom: 15px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  height:20px;
+  width: 200px;
+  padding-left: 15px;
+}
+input:focus{
+  border: 1px solid rgb(15, 15, 150);
+  outline: none;
+}
+textarea{
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.15);
+  width:450px;
+  height: 100px;
+  border-radius: 5px;
+  max-width: 450px;
+  max-height: 100px;
+  min-width: 450px;
+  min-height: 100px;
+  font-family: Arial;
+  margin-bottom: 15px;
+}
+textarea:focus{
+  border:1px solid rgb(15, 15, 150);
+  outline:none
+}
+button{
+  Background: rgba(0, 0, 255, 0.815);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  padding: 5px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

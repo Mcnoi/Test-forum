@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="Form.CSS">
+  <link rel="icon" type="svg" href="bild/Icon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form id="contactForm" action="https://formspree.io/f/mldoyyod" method="POST"> 
+    <div id="container">
+    <input type ="text" name="First name" placeholder="First name" required>
+    <input type ="text" name="Last name" placeholder="Last name" required><br></div>  
+    <div id="container"><input type ="email" name="email" placeholder="email" required><br>
+    <input name="Bokat" type="date"><br>
+    <laber for="addition" style="margin-bottom:15px;">Additional information:</laber><br>
+    <textarea name="Ytterligare information" maxlength="200" id="addition"></textarea><br>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+<script src="Form.JS">
+</script>
+
+</html>
